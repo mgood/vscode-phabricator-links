@@ -8,13 +8,13 @@ Detects Phabricator's [link syntax](https://secure.phabricator.com/book/phabrica
 found in open documents (such as `T123`) and turns it into a link to that object
 in your phabricator project.
 
-To enable linking, set `phabrictator.url` in your User or Workspace Settings
-to the location of your Phabricator project. For example this setting will link
-to Phabricator's own project:
+To enable linking, set `phabricator-links.url` in your User or Workspace
+Settings to the location of your Phabricator project. For example this setting
+will link to Phabricator's own project:
 
 ```
 {
-  "phabricator.url": "https://secure.phabricator.com/"
+  "phabricator-links.url": "https://secure.phabricator.com/"
 }
 ```
 
@@ -33,7 +33,7 @@ You can also link to specific comments by ID: `T123#456`
 
 This extension contributes the following settings:
 
-* `phabricator.url`: Phabricator project URL
+* `phabricator-links.url`: Phabricator project URL
 
 ## Known Issues
 

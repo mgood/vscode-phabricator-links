@@ -5,7 +5,7 @@
     "keywords": [
         "phabricator"
     ],
-    "version": "1.0.0",
+    "version": "1.0.3",
     "publisher": "matt-good",
     "license": "MIT",
     "bugs": {
@@ -31,7 +31,10 @@
             "title": "Phabricator Links configuration",
             "properties": {
                 "phabricator-links.url": {
-                    "type": ["string", "null"],
+                    "type": [
+                        "string",
+                        "null"
+                    ],
                     "default": null,
                     "description": "Phabricator project URL to use as base for links.",
                     "format": "uri"
